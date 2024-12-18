@@ -1,0 +1,12 @@
+# QB_excel_spreadsheet_troubleshooting
+https://support.microsoft.com/en-us/office/fixes-or-workarounds-for-recent-issues-in-excel-for-windows-49d932ce-0240-49cf-94df-1587d9d97093
+https://support.microsoft.com/en-us/excel
+
+Common excel troubleshooting technique
+Common Excel Issues:One common issue is related to formula complications, where even a small error can bring misleading results or “#ERROR!” messages.
+Excel Error Messages:#DIV/0!: This error appears when a formula tries to divide a number by zero or an empty cell.
+#VALUE!: This is shown when Excel finds the wrong type of argument in a formula.
+#REF!: This occurs when a reference in a formula is invalid, often due to deleted cells or incorrect range names.
+#NAME?: This error shows that Excel doesn’t recognize a function name or text in a formula.
+#NUM!: This error appears when a formula or function contains invalid numeric values.
+#N/A: It shows that a value is not available to a function or formula.
