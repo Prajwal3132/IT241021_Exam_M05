@@ -1,0 +1,31 @@
+Q1C_Exce_Mistakes
+medium.com/@Emma_Donery/most-common-excel-errors-and-how-to-fix-them-5cf4e124b35e
+ ###### Error:Causes of the ###### Error:
+Cell Width: The most common reason is that the cell is not wide enough to display the entire value, especially for numbers and dates.
+Negative Dates or Times: If you’re working with dates or times, a negative value can also trigger 
+How to Fix the ###### Error:
+Resize the Cell:
+Manually: Hover over the right edge of the cell until the cursor changes to a double-headed arrow, then click and drag to widen the cell.
+AutoFit: Double-click the right edge of the cell header (the column letter) to automatically adjust the width to fit the contents. this error.
+#CALC! Error:It indicates that there is a calculation error in a formula or function, particularly in newer versions of Excel that support dynamic arrays.
+
+Causes of the #CALC! Error:
+Unsupported Array Formulas: When using functions that return arrays, and Excel cannot evaluate them properly.
+Calculation Issues with Dynamic Arrays: If you’re using Excel’s dynamic array functions (like FILTER, SORT, UNIQUE, etc.), the #CALC! error may appear if the formula can't produce a valid result.
+Circular References: When a formula refers back to its own cell either directly or indirectly, leading to a calculation that cannot be resolved.
+How to Fix the #CALC! Error:
+Check Array Formulas:
+Ensure that you are using array formulas correctly. If you’re using a function that expects an array but the input is not valid, this can cause the #CALC! error. Verify that all referenced ranges and arguments are correct.
+3. #DIV/0!
+It occurs when a formula attempts to divide a number by zero or by an empty cell. This is a common error, especially when using division formulas or functions that involve division.
+
+Causes of the #DIV/0! Error:
+Division by Zero: The most straightforward cause is trying to divide by zero (e.g., =A1/B1 where B1 is 0).
+Empty Cells: If the denominator cell is empty, Excel treats it as zero, resulting in the error.
+How to Fix the #DIV/0! Error:
+Check the Denominator:
+Ensure that the cell you are dividing by is not zero or empty. If it is, you may need to enter a valid number or adjust your data.
+2. Use the IF Function:
+
+You can use an IF statement to check if the denominator is zero or empty before performing the division. Here’s an example:
+=IF(B1=0, "Cannot divide by zero", A1/B1)
